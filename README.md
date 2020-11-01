@@ -17,7 +17,7 @@ This is an AWS cloudformation template that deploys an EC2 instance, an IAM role
 
 - Line 98-108: This is the instance profile for specifying which roles it can assume. As shown the role it will refer to is the s3 bucket role (which will be explained below)
 
-- Line 109-131: Here we have the s3 bucket policy that will state the permissions of creating and listing buckets in s3 - this policy will be attached to the s3 bucket role.
+- Line 109-131: Here we have the s3 bucket policy that will state the permissions of creating and listing buckets in s3.
 
 - Line 132-152: The s3 bucket role - AWS services can assume a role to obtain temporary security credentials that can be used to make AWS API calls. The "sts:AssumeRole" is for a set of temporary security credentials that you can use to access AWS resources that you might not normally have access to. These temporary credentials consist of an access key ID, a secret access key, and a security token.
 
