@@ -1,0 +1,42 @@
+Documenting if this cloud formation template sucessfully gives permissions for s3
+
+Process: 
+
+>> Cloud formation sucessfully created stack, time to verify by logging into instances and using the aws cli for s3
+
+>> aws s3 ls: works- shows my current s3 buckets. now lets see if i can make a bucket
+
+>> aws s3 mb s3://bucket_name - this works as well and also now shows up when I list s3 buckets.
+
+>> Here are some screenshots to verify everything works:
+
+x-special/nautilus-clipboard
+copy
+file:///home/starseed/Pictures/cftest1.jpg
+
+x-special/nautilus-clipboard
+copy
+file:///home/starseed/Pictures/cftest2.jpg
+
+x-special/nautilus-clipboard
+copy
+file:///home/starseed/Pictures/cftest3.jpg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
