@@ -8,19 +8,6 @@ Process:
 
 >> aws s3 mb s3://bucket_name - this works as well and also now shows up when I list s3 buckets.
 
->> Here are some screenshots to verify everything works:
-
-x-special/nautilus-clipboard
-copy
-file:///home/starseed/Pictures/cftest1.jpg
-
-x-special/nautilus-clipboard
-copy
-file:///home/starseed/Pictures/cftest2.jpg
-
-x-special/nautilus-clipboard
-copy
-file:///home/starseed/Pictures/cftest3.jpg
 
 
 
